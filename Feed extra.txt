@@ -1,0 +1,15 @@
+# IPsum Threat Intelligence Feed
+# (https://github.com/stamparm/ipsum)
+#
+# Last update: Tue, 03 May 2022 03:06:22 +0200
+#
+# IP	number of (black)lists
+#
+103.251.167.20	9
+167.86.94.107	8
+
+
+
+https://drive.google.com/file/d/1xT3X0Mk15HhnFOVX58kYalRHyGIlDuxX/view?usp=sharing
+
+ioc_feeds add --feed_name ipsum --transport https --resource "https://drive.google.com/file/d/1xT3X0Mk15HhnFOVX58kYalRHyGIlDuxX/view?usp=sharing" --feed_action Prevent --format [type:ip,value:#1] --comment "#"
